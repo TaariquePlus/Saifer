@@ -1,0 +1,24 @@
+# Android/Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build artifacts (publish separately after verification)
+*.apk
+*.aab
+*.apks
+
+# Local signing material and credentials
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# Tool scratch/temp
+.tmp/
+tmp/
