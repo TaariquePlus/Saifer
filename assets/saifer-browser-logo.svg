@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Saifer Browser logo</title>
+<desc id="desc">A blue fox silhouette wraps around a luminous globe with an orange orbit on a transparent background.</desc>
+<defs>
+ <linearGradient id="fox" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#49f4ff"/><stop offset=".42" stop-color="#078cff"/><stop offset=".78" stop-color="#0738d8"/><stop offset="1" stop-color="#07104f"/></linearGradient>
+ <linearGradient id="earth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7dfbff"/><stop offset=".4" stop-color="#078fff"/><stop offset="1" stop-color="#061b7c"/></linearGradient>
+ <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff3d16"/><stop offset=".5" stop-color="#ffad00"/><stop offset="1" stop-color="#fff25a"/></linearGradient>
+ <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<!-- globe -->
+<circle cx="258" cy="270" r="139" fill="#06165b" stroke="#12dfff" stroke-width="5"/>
+<circle cx="258" cy="270" r="128" fill="url(#earth)"/>
+<g fill="none" stroke="#8cfaff" stroke-opacity=".6" stroke-width="2">
+ <ellipse cx="258" cy="270" rx="61" ry="128"/><ellipse cx="258" cy="270" rx="112" ry="128"/>
+ <ellipse cx="258" cy="270" rx="128" ry="43"/><ellipse cx="258" cy="270" rx="128" ry="86"/>
+</g>
+<path d="M196 177l24 12 7 20-17 17 12 22-19 17 7 20-26 14-16-30-15-13 12-30-7-17 19-15z M273 203l24-15 28 9 9 23 20 10-6 23-22 8-6 27-18 8-14-22-22-6-8-28 17-14z M302 285l24 3 18 18-9 23-19 8-7 31-19-15-4-27-15-15z" fill="#0a2b9e" opacity=".9"/>
+<!-- orange orbit behind fox -->
+<ellipse cx="256" cy="270" rx="220" ry="72" transform="rotate(-24 256 270)" fill="none" stroke="url(#orbit)" stroke-width="20" filter="url(#glow)"/>
+<!-- fox curled silhouette -->
+<path d="M111 202 137 91 215 143 Q280 102 354 138 L407 110 390 177 Q425 208 400 250 L373 229 Q362 300 315 342 Q269 385 213 351 Q165 322 151 278 Q143 249 111 202Z" fill="url(#fox)" stroke="#57f4ff" stroke-width="5" stroke-linejoin="round"/>
+<path d="M137 103 204 151 172 181 127 202Z" fill="#061b78" stroke="#18dfff" stroke-width="3"/>
+<path d="M354 145 389 126 377 175 350 188 326 175Z" fill="#07104f"/>
+<path d="M329 189 Q360 184 386 201 L359 211 334 205Z" fill="#e9ffff"/>
+<path d="M204 220 Q270 173 331 219 Q355 242 342 275 Q325 313 284 319 Q238 325 212 288 Q196 267 204 220Z" fill="#06165b" stroke="#42f5ff" stroke-width="4"/>
+<path d="M219 241 Q262 207 306 233 Q328 248 319 272 Q307 294 281 299 Q249 301 230 279Z" fill="url(#earth)"/>
+<path d="M244 249l15 6 8 14-11 12-14-9z M280 242l17 7 8 15-15 7-10-12z" fill="#a3fbff"/>
+<path d="M191 324 Q242 374 300 337 Q331 316 342 280 Q343 334 302 367 Q245 413 185 370 Q162 351 151 321Z" fill="url(#fox)" stroke="#38eaff" stroke-width="4"/>
+<path d="M68 286 Q130 390 270 389 Q390 386 448 275" fill="none" stroke="url(#orbit)" stroke-width="13" stroke-linecap="round"/>
+<circle cx="448" cy="275" r="8" fill="#fff7a6" filter="url(#glow)"/>
+</svg>
