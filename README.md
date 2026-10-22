@@ -1,12 +1,12 @@
 # Saifer Browser
 
 <p align="center">
-  <img src="assets/saifer-browser-logo.svg" alt="Saifer Browser logo" width="220" />
+  <img src="assets/Neon Fox Embracing a Glowing Earth.png" alt="Saifer Browser logo" width="220" />
 </p>
 
 <p align="center"><strong>Saifer Browser</strong> · Blue fox, glowing globe, and orange orbit.</p>
 
-<p align="center"><a href="assets/saifer-browser-logo.svg">View the scalable transparent logo (SVG)</a></p>
+<p align="center"><a href="assets/Neon Fox Embracing a Glowing Earth.png">View the scalable transparent logo (SVG)</a></p>
 
 Saifer Browser is an Android browser project being developed using the user-provided Via Browser 7.3.3 decompiled package as a technical reference.
 
