@@ -6,19 +6,6 @@
 
 <p align="center"><strong>Saifer Browser</strong> · Blue fox, glowing globe, and orange orbit.</p>
 
-## Logo assets
-
-The original PNG files supplied for the Saifer project are stored in `assets/` and used directly—no SVG substitute.
-
-<p align="center">
-  <img src="assets/Neon%20Fox%20Embracing%20a%20Glowing%20Earth.png" alt="Saifer fox embracing a glowing Earth — transparent PNG" width="220" />
-  &nbsp;&nbsp;
-  <img src="assets/Neon%20Fox%20Emblem%20Around%20Earth.png" alt="Saifer fox emblem around Earth — PNG" width="220" />
-</p>
-
-- [Neon Fox Embracing a Glowing Earth.png](assets/Neon%20Fox%20Embracing%20a%20Glowing%20Earth.png)
-- [Neon Fox Emblem Around Earth.png](assets/Neon%20Fox%20Emblem%20Around%20Earth.png)
-
 Saifer Browser is an Android browser project being developed using the user-provided Via Browser 7.3.3 decompiled package as a technical reference.
 
 ## Current state
